@@ -3,7 +3,7 @@
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
-  ![image]((image.png))
+  ![image](image.png)
 
  This is my personal portfolio website built in React! Here you can read about me, see my portfolio of work, download my resume, and coming soon is the ability to contact me via email!
 
