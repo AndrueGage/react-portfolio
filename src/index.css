@@ -124,15 +124,23 @@ h2{
 /* Div wrapped styling for projects */
 .projects {
     display: flex;
-    gap: 100px;
     justify-content: center;
 }
 
-.side-projects {
-    width: 25%;
+.main-projects {
     display: flex;
+    gap: 15px;
+    justify-content: center;
     flex-direction: column;
+    width: 50%;
+}
+
+.side-projects {
+    width: 40%;
+    display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
 }
 
 /* Animation styling for linked images and navbar */
@@ -146,6 +154,15 @@ h2{
 
 /* Styling for the borders of project images */
 .projects a {
+    filter: drop-shadow(5px 5px 10px #000000);
+    border-radius: 20px;
+    padding: 20px;
+    border: 8px solid rgb(54, 9, 54);
+    position: relative;
+    color: white;
+    background-color: rgb(54, 9, 54);
+}
+.main-projects a {
     filter: drop-shadow(5px 5px 10px #000000);
     border-radius: 20px;
     padding: 20px;
@@ -197,31 +214,52 @@ section {
 
 /* Project Id's and styling */
 #project-one {
-    background-image: url(/public/images/digital-marketing-meeting.jpg);
+    background-image: url(/public/images/DB_easy.png);
     height: 550px;
-    width: 50%;
+    width: 80%;
     background-size: cover;
+    background-position: center;
+    
 }
 
-#project-one {
-    background-image: url(/public/images/digital-marketing-meeting.jpg);
+#project-one-2 {
+    background-image: url(/public/images/zestyClip.png);
     height: 550px;
-    width: 50%;
-    background-size: cover;
-}
-
-#project-two {
-    background-image: url(/public/images/bowtie-cat.png);
-    height:225px;
+    width: 80%;
     background-size: cover;
     background-position: center;
 }
 
+
+#project-two {
+    background-image: url(/images/time-coding-quiz.png);
+    height:225px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
 #project-three {
-    background-image: url(./lofigirl.jpg);
+    background-image: url(/images/weather-dashboard.png);
     height: 225px;
     background-size: cover;
+    background-position: center;
 }
+
+#project-four {
+    background-image: url(/images/employee-manager.png);
+    height: 225px;
+    background-size: cover;
+    background-position: left;
+}
+
+#project-five {
+    background-image: url(/images/work-day-scheduler.png);
+    height: 225px;
+    background-size: cover;
+    background-position: center;
+}
+
 
 /* Responsive Web Design */
 @media(max-width: 840px) {
