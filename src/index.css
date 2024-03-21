@@ -106,6 +106,22 @@ h2{
     font-size: 22px;
     line-height: 42px;
 }
+a:link {
+    color: white;
+  }
+  
+a:visited {
+    color: white;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+  }
+
+#resume p {
+    font-size: 22px;
+    line-height: 42px;
+}
 
 #my-work {
     padding-bottom: 72px;
