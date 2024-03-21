@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer id="contact">
-        <h2>Contact</h2>
+        <h2></h2>
         <hr />
         <div className="contacts">
             <a href="https://github.com/AndrueGage" target="_blank" className="animate">
