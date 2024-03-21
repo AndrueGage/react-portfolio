@@ -109,7 +109,7 @@ h2{
 a:link {
     color: white;
   }
-  
+
 a:visited {
     color: white;
 }
@@ -353,8 +353,8 @@ section {
         flex-direction: column;
         gap: 20px;
     }
-    #project-one {
-        width: auto;
+    #project-one, #project-one-2 {
+        width: 175%;
 
     }
 }
