@@ -10,8 +10,8 @@ export default function Footer() {
             <a href="mailto:trainer.andrue@gmail.com" target="_blank" className="animate">
                 <img src="/images/email.svg" alt="email icon" />Email
             </a>
-            <a href="https://www.instagram.com/androogage/" target="_blank" className="animate">
-                <img src="/images/instagram.svg" alt="instagram icon" />Instagram
+            <a href="https://www.linkedin.com/in/andrue-desmarais-1007b82a7/" target="_blank" className="animate">
+                <img src="/images/linkedin.svg" alt="linkedin icon" />LinkedIn
             </a>
         </div>
     </footer>
